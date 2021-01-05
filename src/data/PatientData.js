@@ -18,7 +18,7 @@ const addOptions = (obj, options) =>
 )
 
 export const personalDetail = {
-    name: createInputField(typeText, 'Nombre'),
+    name: createInputField(typeText, 'Nombre Completo'),
     age: createInputField(typeNumber, 'Edad'),
     gender: addOptions(createInputField(typeRadio, 'Sexo'), ['Masculino', 'Femenino', 'Prefiero no decir']),
     phone: createInputField(typePhone,'Teléfono'),
